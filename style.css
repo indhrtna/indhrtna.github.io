@@ -1,0 +1,137 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+.logo {
+    font-weight: 800;
+    font-size: 50px;
+    float: left;
+    font-family: sans-serif;
+    color: #22577E;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background: #ffffff;
+    z-index: 1;
+    border-bottom: 1px solid black;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 17px 0px 17px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: auto;
+}
+section {
+    margin: auto;
+    display: flex;
+    marging-button: 50px;
+}
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img s{
+    margin: 50;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-family: 'comic sans';
+    font-weight: bold;
+    color: darkblue;
+    
+}
+
+h2 {
+    font-family: 'comic sans';
+    font-weight: 700px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: darkblue;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbl-biru:hover {
+    background: #f371b0;
+    text-decoration: none;
+
+}
+
+a.tbl-pink {
+    background: #f371b0;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 15px 20px 15px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    float: left;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af; 
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+
+
+  
